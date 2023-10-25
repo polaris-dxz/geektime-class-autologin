@@ -49,7 +49,8 @@
       setTimeout(autologin(), 1000)
     }
   }
-  window.addEventListener('load',
+  window.addEventListener(
+    'load',
     function () {
       autologin()
     },
